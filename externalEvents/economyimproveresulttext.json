@@ -1,0 +1,98 @@
+{
+  "associatedLayout": "Main",
+  "name": "EconomyImproveResultText",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "EconomyResult",
+            "EconomyTxt.X()",
+            "EconomyTxt.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "EconomyResult",
+            "Text",
+            "=",
+            "\"+1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "EconomyResult",
+            "Tween",
+            "\"Opacity\"",
+            "0",
+            "\"linear\"",
+            "2",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "EconomyResult",
+            "\"65;117;5\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "EconomyResult",
+            "180",
+            "50",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numEconomy",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Sounds\\Yay.mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

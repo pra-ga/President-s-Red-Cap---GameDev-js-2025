@@ -1,0 +1,1375 @@
+{
+  "firstLayout": "Menu",
+  "gdVersion": {
+    "build": 228,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "84929515-8027-45b2-972d-8a8538c2c3d5",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "PresidentsRedCap",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "D:\\GDevelop projects\\President Game - GameDev js\\Builds\\Beta 23Apr25 3.41 pm",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "78lDqxP8U8b3mgFNcpj7V05Z3EY2"
+    ],
+    "authorUsernames": [
+      "pg"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "Raw/Concept.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Raw\\Concept.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReactionIcons.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ReactionIcons.png\"}",
+        "name": "ReactionIcons",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReactionIcons2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ReactionIcons2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReactionIcons3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ReactionIcons3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReactionIcons4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ReactionIcons4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReactionIcons5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ReactionIcons5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReactionIcons3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/ReactionIcons3.png\",\"extension\":\".png\"}",
+        "name": "assets\\ReactionIcons3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReactionIcons5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ReactionIcons5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_ReactionIcons5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\ReactionIcons5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tweet_bkg.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Tweet_bkg.png\",\"extension\":\".png\"}",
+        "name": "assets\\Tweet_bkg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Seperator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Seperator.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tab-selected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tab-selected.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tab-unselected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tab-unselected.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Layout.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Layout.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blokletters-Potlood/Blokletters-Balpen.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Blokletters-Potlood\\Blokletters-Balpen.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blokletters-Potlood/Blokletters-Viltstift.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Blokletters-Potlood\\Blokletters-Viltstift.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Option_default1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Option_default1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Option_hover1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Option_hover1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Option_default2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Option_default2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Option_hover2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Option_hover2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Option_default3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Option_default3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Option_hover3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Option_hover3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Send_icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Send_icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Send_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Send_hover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/blue_bars.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/blue_bars.png\",\"extension\":\".png\"}",
+        "name": "assets\\blue_bars.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Green_bars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Green_bars.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Orange_bars.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Orange_bars.png\",\"extension\":\".png\"}",
+        "name": "assets\\Orange_bars.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pink_bars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pink_bars.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_happy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_happy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_happy_default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_happy_default.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_happy_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_happy_hover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled39",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled41",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled43",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled44",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled45",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TweetFace1.png\"}",
+        "name": "TweetFace1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TweetFace2.png\"}",
+        "name": "TweetFace2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TweetFace3.png\"}",
+        "name": "TweetFace3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TweetFace4.png\"}",
+        "name": "TweetFace4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetFace5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TweetMarker.png\"}",
+        "name": "TweetMarker",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Your_Tweet_bkg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Your_Tweet_bkg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bars_cover.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bars_cover.png\",\"extension\":\".png\"}",
+        "name": "assets\\Bars_cover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Black screen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Black screen.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Untitled9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Untitled9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/TongueOut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\TongueOut.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/glum.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\glum.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/Evilgrin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\Evilgrin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/exchausted.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\exchausted.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/happyWink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\happyWink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/wailing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\wailing.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/shocked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\shocked.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/scared.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\scared.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mask.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mask.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Next_button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Next_button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap faces/sarcastic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap faces\\sarcastic.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Small Plastic Green Round Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Toggle_Off.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/fb7f90b97747df8daf145e5d616435f9bbf02a5b953ee2c8e51dc9f298bd9257_Small Plastic Green Round Toggle_Off.png",
+          "name": "Small Plastic Green Round Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Toggle_On.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Toggle_On.png",
+          "name": "Small Plastic Green Round Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Unchecked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Unchecked",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Checked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Checked",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/Cat caffe.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\Cat caffe.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Green_bars.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Green_bars.png\"}",
+        "name": "assets\\Green_bars",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_sleeping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_sleeping.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_win.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_win.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_lost.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_lost.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetMarker2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetMarker3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetMarker4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetMarker5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetMarker6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetMarker7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TweetMarker8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetMarker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TweetMarker.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TweetFace7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TweetFace6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TweetFace2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TweetFace3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TweetFace3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/Day change.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\Day change.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/Reaction appears.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\Reaction appears.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/Send appears.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\Send appears.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/Send-good-6081.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\Send-good-6081.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/Shocked.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\Shocked.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/Yay.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\Yay.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sounds_CapClick.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":0,\\\"decay\\\":0.37,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1300,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":25,\\\"frequencyJump1Amount\\\":25,\\\"frequencyJump2Onset\\\":40,\\\"frequencyJump2Amount\\\":70,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":-100,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":3,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"assets\\\\Sounds\\\\CapClick\"},\"localFilePath\":\"assets/assets_Sounds_CapClick.wav\"}",
+        "name": "assets\\Sounds\\CapClick",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/assets_Sounds_CapClick.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\assets_Sounds_CapClick.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sounds/rooster-call-cock-a-doodle-doo-46096.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\rooster-call-cock-a-doodle-doo-46096.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cap_Wakeup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cap_Wakeup.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Restart_button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Restart_button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Play_button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Play_button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mask2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mask2.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/randomnewsagencynames"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/economyimproveresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/economydropsresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/economyimproveresulttext2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/padropresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/paimproveresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/paimproveresulttext2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/riskofscandaldropresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/riskofscandalimproveresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/riskofscandalimproveresulttext2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/personalwealthdropresulttext2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/personalwealthdropresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/personalwealthimproveresulttext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/personalwealthimproveresulttext2"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sway"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    }
+  ],
+  "externalLayouts": []
+}

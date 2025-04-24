@@ -1,0 +1,98 @@
+{
+  "associatedLayout": "Main",
+  "name": "PAImproveResultText",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "PAResult",
+            "PublicApprovalTxt.X()",
+            "PublicApprovalTxt.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PAResult",
+            "Text",
+            "=",
+            "\"+1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "PAResult",
+            "\"65;117;5\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "PAResult",
+            "180",
+            "50",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "PAResult",
+            "Tween",
+            "\"Opacity\"",
+            "0",
+            "\"linear\"",
+            "2",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numPublicApproval",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Sounds\\Yay.mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "associatedLayout": "Main",
+  "name": "RandomNewsAgencyNames",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TweetTitle1",
+            "Text",
+            "=",
+            "NewsAgencyName[RandomInRange(0,14)]"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TweetTitle2",
+            "Text",
+            "=",
+            "NewsAgencyName[RandomInRange(0,14)]"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TweetTitle3",
+            "Text",
+            "=",
+            "NewsAgencyName[RandomInRange(0,14)]"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TweetTitle5",
+            "Text",
+            "=",
+            "NewsAgencyName[RandomInRange(0,14)]"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TweetTitle6",
+            "Text",
+            "=",
+            "NewsAgencyName[RandomInRange(0,14)]"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "TweetFace1",
+            "Animation",
+            "=",
+            "RandomInRange(0,5)"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "TweetFace2",
+            "Animation",
+            "=",
+            "RandomInRange(0,5)"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "TweetFace3",
+            "Animation",
+            "=",
+            "RandomInRange(0,5)"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "TweetFace5",
+            "Animation",
+            "=",
+            "RandomInRange(0,5)"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "TweetFace6",
+            "Animation",
+            "=",
+            "RandomInRange(0,5)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "FireText1",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "FireText2",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "FireText3",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "FireText5",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "FireText6",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HeartText1",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HeartText2",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HeartText3",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HeartText5",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HeartText6",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LikeText1",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LikeText2",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LikeText3",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LikeText5",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "LikeText6",
+            "Text",
+            "=",
+            "ToString(RandomInRange(10,99))"
+          ]
+        }
+      ]
+    }
+  ]
+}

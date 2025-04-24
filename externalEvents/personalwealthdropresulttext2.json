@@ -1,0 +1,98 @@
+{
+  "associatedLayout": "Main",
+  "name": "PersonalWealthDropResultText2",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "PersonalWealthResult",
+            "PersonalGainsTxt.X()",
+            "PersonalGainsTxt.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PersonalWealthResult",
+            "Text",
+            "=",
+            "\"-2\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "PersonalWealthResult",
+            "\"208;2;27\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "PersonalWealthResult",
+            "180",
+            "50",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "PersonalWealthResult",
+            "Tween",
+            "\"Opacity\"",
+            "0",
+            "\"linear\"",
+            "2",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numPersonalWealth",
+            "-",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Sounds\\Shocked.mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
